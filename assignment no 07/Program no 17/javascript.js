@@ -15,7 +15,7 @@ if (isNaN(a) || isNaN(b) || isNaN(c)) {
    let root2 = (-b / (2 * a));
    console.log("The roots are: " + root1 + ", " + root2);
 } else {
-   let root1 = ((-b + Math.sqrt(checker)) / (2 * a));
-   let root2 = ((-b - Math.sqrt(checker)) / (2 * a));
+   let root1 = (-(b + Math.sqrt(checker)) / (2 * a));
+   let root2 = (-(b - Math.sqrt(checker)) / (2 * a));
    console.log("The roots are: " + root1 + ", " + root2);
 }
